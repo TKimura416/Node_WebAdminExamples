@@ -10,24 +10,24 @@ Other locations:
 
 ## Install
 ```bash
-$ git clone https://github.com/simov/express-admin-examples
-$ cd express-admin-examples
+$ git clone https://github.com/TKimura416/Node_WebAdminExamples
+$ cd Node_WebAdminExamples
 $ npm install
 ```
 
 ## Create the schema and the test user
 ###### MySQL
 ```sql
-CREATE SCHEMA `express-admin-examples` ;
+CREATE SCHEMA `Node_WebAdminExamples` ;
 CREATE USER liolio@localhost IDENTIFIED BY 'karamba' ;
-GRANT ALL ON `express-admin-examples`.* TO liolio@localhost ;
+GRANT ALL ON `Node_WebAdminExamples`.* TO liolio@localhost ;
 ```
 ###### PostgreSQL
 ```sql
-create database "express-admin-examples";
+create database "Node_WebAdminExamples";
 -- create schema 'name'; (default: 'public')
 create user liolio with password 'karamba';
-grant all on database "express-admin-examples" to liolio;
+grant all on database "Node_WebAdminExamples" to liolio;
 -- public schema by default
 grant all on schema "public" to liolio;
 grant all on all tables in schema "public" to liolio;
@@ -39,11 +39,11 @@ grant all on all sequences in schema "public" to liolio;
 
 ```bash
 # MySQL
-$ mysql -p --user=root 'express-admin-examples' < fixtures/mysql/schema.sql
-$ mysql -p --user=root 'express-admin-examples' < fixtures/mysql/insert.sql
+$ mysql -p --user=root 'Node_WebAdminExamples' < fixtures/mysql/schema.sql
+$ mysql -p --user=root 'Node_WebAdminExamples' < fixtures/mysql/insert.sql
 # PostgreSQL
-$ sudo -u postgres psql 'express-admin-examples' < fixtures/pg/schema.sql
-$ sudo -u postgres psql 'express-admin-examples' < fixtures/pg/insert.sql
+$ sudo -u postgres psql 'Node_WebAdminExamples' < fixtures/pg/schema.sql
+$ sudo -u postgres psql 'Node_WebAdminExamples' < fixtures/pg/insert.sql
 # SQLite
 $ node fixtures/sqlite/import.js
 ```
@@ -64,7 +64,6 @@ Username: **admin**
 Password: **11aaAA**
 
 
-  [1]: https://github.com/simov/express-admin
+  [1]: https://github.com/TKimura416/Node_WebAdmin
   [2]: http://www.youtube.com/watch?v=1CdoCB96QNk
-  [3]: http://simov.github.io/express-admin-site
-  [4]: https://github.com/simov/express-admin-tests
+  [3]: https://github.com/TKimura416/Node_WebAdminTests

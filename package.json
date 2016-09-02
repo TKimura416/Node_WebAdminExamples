@@ -1,16 +1,16 @@
 {
-    "name": "express-admin-examples",
+    "name": "Node_WebAdminExamples",
     "version": "1.0.0",
     "description": "Examples for Express Admin.",
     "license"   : "MIT",
-    "homepage"  : "https://github.com/simov/express-admin-examples",
+    "homepage"  : "https://github.com/TKimura416/Node_WebAdminExamples",
     "author": {
-        "name"  : "simo",
-        "email" : "simeonvelichkov@gmail.com"
+        "name"  : "takuya",
+        "email" : "kimuratakuya416@gmail.com"
     },
     "repository": {
         "type"  : "git",
-        "url"   : "git://github.com/simov/express-admin-examples.git"
+        "url"   : "git://github.com/TKimura416/Node_WebAdminExamples.git"
     },
     "dependencies": {
         "express"    : "3.4.4",
